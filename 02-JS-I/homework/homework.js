@@ -263,30 +263,37 @@ obtenerSaludo (camila);
 function obtenerAreaRectangulo(alto, ancho) {
   // Retornar el area de un rectángulo teniendo su altura y ancho
   // Tu código:
-  
+  return alto * ancho;
 }
+obtenerAreaRectangulo (8,5);
 
 
 function retornarPerimetro(lado){
   //Escibe una función a la cual reciba el valor del lado de un cuadrado y retorne su perímetro.
   //Escribe tu código aquí
+  return lado * 4;
   
 }
+retornarPerimetro(16);
 
 
 function areaDelTriangulo(base, altura){
   //Desarrolle una función que calcule el área de un triángulo.
   //Escribe tu código aquí
+  return (base * altura);
 
 }
+areaDelTriangulo(7,4);
 
 
 function deEuroAdolar(euro){
   //Supongamos que 1 euro equivale a 1.20 dólares. Escribe un programa que reciba
   //como parámetro un número de euros y calcule el cambio en dólares.
   //Escribe tu código aquí
+  return euro * 3.40;
   
 }
+deEuroAdolar (6);
 
 
 function esVocal(letra){
@@ -295,7 +302,16 @@ function esVocal(letra){
   //que no se puede procesar el dato mediante el mensaje "Dato incorrecto".
   // Si no es vocal, tambien debe devolver "Dato incorrecto".
   //Escribe tu código aquí
-  
+  if( letra.length !== 1){
+    return "Datos incorrecto";
+  }
+  const vocales = ["a","e","i","o","u"];
+  if(vocales.includes(letra.toLowerCase())){
+    return"Es vocal";
+  }
+  else{
+    return "Dato incorrecto";
+  }
 }
 
 
