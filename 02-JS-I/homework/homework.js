@@ -51,7 +51,6 @@ function resta(x, y) {
   let y =4;
   let resta= x - y;
   return resta;
-
   
 }
 resta(7,5);
@@ -61,7 +60,6 @@ function multiplica(x, y) {
   // Tu código:
   let multiplica= x * y;
   return multiplica;
-  
 }
 multiplica(8,3);
 
@@ -69,8 +67,7 @@ function divide(x, y) {
   // Divide "x" entre "y" y devuelve el valor
   // Tu código:
   let divide= x / y;
-  return divide;
-  
+  return divide;  
 }
 divide(10,2);
 
@@ -84,7 +81,6 @@ function sonIguales(x, y) {
   else{
     return false
   }
-
   
 }
 sonIguales(6,9)
