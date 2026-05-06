@@ -41,7 +41,7 @@ function conection(status) {
     return "Offline";
   }  
 }
- conection(status);
+ conection(4);
 
 function saludo(idioma) {
   // Devuelve un saludo en tres diferentes lenguajes:
@@ -60,7 +60,6 @@ function saludo(idioma) {
     return "Hola!";
   }
 }
-saludo(chau);
 
 function colors(color) {
   //La función recibe un color. Devolver el string correspondiente:
@@ -83,7 +82,7 @@ function colors(color) {
               return "color not found";
   }  
 }
-colors(amarillo);
+colors(green);
 
 function esDiezOCinco(numero) {
   // Devuelve "true" si "numero" es 10 o 5
@@ -95,7 +94,7 @@ function esDiezOCinco(numero) {
     return false;
   } 
 }
- esDiezOCinco(7,9);
+ esDiezOCinco(10);
 
 function estaEnRango(numero) {
   // Devuelve "true" si "numero" es menor que 50 y mayor que 20
@@ -141,7 +140,7 @@ function fizzBuzz(numero) {
     return numero;
   }  
 }
-fizzBuzz(35);
+fizzBuzz(8);
 
 function operadoresLogicos(num1, num2, num3) {
   //La función recibe tres números distintos. 
@@ -187,7 +186,8 @@ function esVerdadero(valor){
   } else {
     return "soy falso";
   }
-} esVerdadero(50);
+} 
+esVerdadero(50);
 
 function tablaDelSeis(){
   //Escribe una función que muestre la tabla de multiplicar del 6 (del 0 al 60).
